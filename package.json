@@ -37,8 +37,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run quality-check",
-      "pre-push": "npm run test"
+      "pre-commit": "npm run quality-check"
     }
   },
   "scripts": {
@@ -66,6 +65,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^1.19.1",
     "@types/dotenv": "^8.2.0",
     "babel-eslint": "^10.0.3",
     "babel-plugin-root-import": "^6.4.1",
@@ -83,7 +83,6 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^4.0.7",
-    "prettier": "^1.19.1",
     "react-app-rewired": "^2.1.5",
     "react-test-renderer": "^16.12.0",
     "sonarqube-scanner": "^2.5.0"
